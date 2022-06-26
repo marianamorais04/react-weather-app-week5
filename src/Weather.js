@@ -6,16 +6,21 @@ export default function Weather() {
   return (
     <div className="Weather">
       <form>
-        <div className="row">
+        <div className="row mt-3">
           <div className="col-9">
             <input
               type="search"
               placeholder="Enter a city..."
               className="form-control"
+              autoFocus="on"
             />
           </div>
           <div className="col-3">
-            <input type="submit" value="Search" className="btn btn-primary" />
+            <input
+              type="submit"
+              value="Search"
+              className="btn btn-primary w-100"
+            />
           </div>
         </div>
       </form>
@@ -30,9 +35,13 @@ export default function Weather() {
       </div>
       <div className="row">
         <div className="col-6">
-          <img src="./images/cloud-sun.png" alt="Mostly Cloudy" />
-          <span>6</span>
-          <span>ºC|F</span>
+          <img
+            src="./images/cloud-sun.png"
+            alt="Mostly Cloudy"
+            className="Icon"
+          />
+          <span className="temperature">6</span>
+          <span className="unit">ºC|F</span>
         </div>
         <div className="col-6">
           <ul>

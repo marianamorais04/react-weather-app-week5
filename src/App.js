@@ -9,7 +9,7 @@ export default function App() {
         <div>
           <Weather />
         </div>
-        <div>
+        <div className="Footer">
           <p>
             This project was coded by Mariana Morais{" "}
             <a
