@@ -1,15 +1,11 @@
 .Weather {
-  border: 2px solid rgba(149, 215, 216, 0.479);
+  border: 2px solid rgba(148, 198, 225, 0.479);
   border-radius: 4px;
   margin: 30px auto;
   font-family: Arial, Helvetica, sans-serif;
   color: #878787;
   text-align: left;
-  background: radial-gradient(
-    circle at 10% 20%,
-    rgba(216, 241, 230, 0.46) 0.1%,
-    rgba(233, 226, 226, 0.28) 90.1%
-  );
+  background: linear-gradient(to top, #dfe9f3 0%, white 100%);
 }
 
 .Weather form {
@@ -37,9 +33,9 @@
   list-style: none;
 }
 
-.Weather i {
-  width: 75px;
-  margin: 10px 10px 50px 20px;
+.Weather canvas {
+  width: 60px;
+  margin: 0 20px;
 }
 
 .Weather .temperature {
