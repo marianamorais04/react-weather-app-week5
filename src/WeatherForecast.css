@@ -1,0 +1,8 @@
+.WeatherForecast {
+  text-align: center;
+  color: black;
+}
+
+.forecast-min {
+  opacity: 0.5;
+}
