@@ -1,11 +1,10 @@
 .Weather {
-  border: 2px solid rgba(148, 198, 225, 0.479);
+  border: 2px solid rgba(38, 40, 40, 0.18);
   border-radius: 4px;
   margin: 20px auto;
   font-family: Arial, Helvetica, sans-serif;
   color: #878787;
   text-align: left;
-  background: linear-gradient(to top, #dfe9f3 0%, white 100%);
 }
 
 .Weather form {
