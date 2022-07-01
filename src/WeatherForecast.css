@@ -2,6 +2,17 @@
   text-align: center;
   color: black;
 }
+.WeatherForecast .col {
+  border: 2px solid rgba(148, 198, 225, 0.479);
+  border-radius: 4px;
+  margin: 18px;
+  background: transparent;
+  box-shadow: 3px 5px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.data-forecast {
+  font-size: 13px;
+}
 
 .forecast-min {
   opacity: 0.5;
